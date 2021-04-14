@@ -1,9 +1,15 @@
 body{
     background-color: black;
     text-align: center;
+    color: white
 }
 
 #header{
     font-style: normal;
     color: white;
+}
+
+.to-learn{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
