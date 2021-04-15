@@ -1,0 +1,94 @@
+/**
+ * Float Layout Activity
+ **/
+
+/** 
+padding -> the space within the element
+margin -> the space around the element -- top right bottom left
+background -> is the background color 
+float -> how an element should float, how elements should flow
+overflow -> controls how the element behaves if texts goes over
+width -> the width of the screen 
+clear -> do not allow floating on left or right;
+**/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  color: white;
+  font-size: 20pt;
+
+}
+
+header {
+ background-color: #ffa500;
+ color: #394549;
+ padding: 21px;
+ margin-bottom: 12px;
+}
+
+section {
+  padding: 21px;
+  float: left;
+}
+
+#left {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  background-color: #30948D;
+  width:33.3%; 
+
+}
+
+#middle {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  background-color: #9E1212;
+  width:33.3%;
+
+
+}
+
+#right {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  background-color: #30948D;
+  width:33.3%;
+}
+
+
+#full {
+  background-color: #394549;
+  width:100%;
+  margin: 0 0 24px 0;
+  overflow:auto;
+  float:left;
+  clear: both;
+}
+
+#division {
+  background-color: #6ea3da;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+aside {
+ background-color: #a6b747;
+ float:left;
+ height: auto;
+ padding: 20px;
+ height:200px;
+ width:33%;
+ margin-left: 30px;
+ border: 1pt white solid;
+}
+
+footer {
+  background-color: #FFA500;
+  color: #394549;
+  clear: both;
+  padding:20px;
+}
