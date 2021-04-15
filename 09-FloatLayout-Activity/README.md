@@ -28,10 +28,10 @@
 
   * overflow
 
-  * height
+  * height -- 
 
-  * font-size
+  * font-size --
 
-  * line-height
+  * line-height --
 
 * If you finish early Slack the TAs or raise your hand to call their attention. TAs will reassign you to help others in the class.
