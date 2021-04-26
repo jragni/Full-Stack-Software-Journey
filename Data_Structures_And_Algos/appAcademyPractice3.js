@@ -343,15 +343,7 @@ function longestSubstringPalindrome(string){
     let longestPalindromeLength = 0;
     let currentSS =''
     // racecar -> ra, rac, race, racec, raceca, racecar
-    // using previous function, check if is palindrome
-
-    // check if word itself is a palindrome
-    if(palindrome(string)){
-        return string;
-    }
-
-    for(let i = 0;i<string.length; i++){
-        for(let j = 1; j<string.length; j++){
+    // using previous function, check if is palindromei
             
             currentSS = string.slice(i,j);
             if(palindrome(currentSS) && currentSS.length > longestPalindromeLength){
