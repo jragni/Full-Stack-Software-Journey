@@ -344,7 +344,9 @@ function longestSubstringPalindrome(string){
     let currentSS =''
     // racecar -> ra, rac, race, racec, raceca, racecar
     // using previous function, check if is palindromei
-            
+        
+    for(let i = 0; i<string.length;j++){
+        for(let j = 0; j<string.length;j++){
             currentSS = string.slice(i,j);
             if(palindrome(currentSS) && currentSS.length > longestPalindromeLength){
                 longestPalindromeLength = currentSS.length
