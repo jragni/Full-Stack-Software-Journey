@@ -7,6 +7,8 @@ This repository will delve into HTML, CSS, JavaScript (ES6), and the MEAN stack.
 
 The first phase of the boot camp, Foundation, equips you with the fundamental concepts of web development, covering front end technologies like HTML, CSS, and JavaScript, as well as command line fundamentals and API consumption.
 
+    Ruby 
+    Data Structures and Algorithms (Ruby/JavaScript)
     HTML/CSS
     Git
     Bootstrap
