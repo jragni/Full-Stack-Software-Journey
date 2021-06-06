@@ -1,0 +1,46 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.navbar {
+    background-color:cadetblue;
+    padding:16px;
+    align-items: center;
+}
+
+
+.navbar-list{
+    list-style-type: none;
+    display:inline;
+    background-color: mediumturquoise;
+     
+
+}
+.site-title {
+    background-color: cadetblue;
+    float:left;
+    padding: 16px;
+ }
+.about-me-button, .portfolio, .contact-button {
+    float:right;
+    padding: 16px;
+    background-color: cadetblue;
+    border-color: paleturquoise;
+}
+
+.body-background {
+    background-color: turquoise;
+}
+
+.business-card{
+    background-color: cyan;
+    border-style: solid;
+    border-color: paleturquoise;
+    margin: auto;
+    width: 50%;
+    padding: 16px;
+    clear:both;
+
+}
+
