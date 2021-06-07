@@ -7,13 +7,15 @@
     background-color:cadetblue;
     padding:16px;
     align-items: center;
+    overflow: auto;
 }
 
 
 .navbar-list{
     list-style-type: none;
-    display:inline;
+    overflow: auto;
     background-color: mediumturquoise;
+    padding: 16px; 
      
 
 }
